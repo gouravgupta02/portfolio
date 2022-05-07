@@ -2,13 +2,12 @@
 a {
     color: #11999E;
 }
-div {
-    background-color: #93FFD8;
-}
 body {
     line-height: 1.6em;         /*used for giving some height in between the lines*/
     text-align: center;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #93FFD8;
 }
 h1 {
     font-family: 'Lobster Two', cursive;
@@ -41,7 +40,8 @@ h4 {
     
 }
 .bottom-container{
-    
+    margin: 0;
+    padding: 0;
 }
 .top-cloud {
     position: absolute;

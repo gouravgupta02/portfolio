@@ -1,0 +1,77 @@
+/************************************** Tag Selectors *****************************************/
+a {
+    color: #11999E;
+}
+div {
+    background-color: #93FFD8;
+}
+body {
+    line-height: 1.6em;         /*used for giving some height in between the lines*/
+    text-align: center;
+    margin: 0px;
+}
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    color: #66BFBF;
+}
+h2 {
+    font-family: 'Lobster Two', cursive;
+    color: #11999E;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 1rem auto;
+}
+h3 {
+    color: #11999E;
+}
+h4 {
+    color: #66BFBF;
+}
+/************************************* Class Selectors *****************************************/
+
+.top-container {
+    margin: auto; 
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+.middle-container{
+    
+}
+.bottom-container{
+    
+}
+.top-cloud {
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+.bottom-cloud {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+
+/********************************** Class + Tag Selectors *************************************/
+.skill-row h3 {
+    margin: 0 auto;
+}
+.skill-row p {
+    margin: 0 auto;
+}
+.contact-me a {
+    text-decoration: none;
+}
+.bottom-container a{
+}
+
+/************************************* Id Selectors *****************************************/
+

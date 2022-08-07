@@ -8,53 +8,101 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Merriweather&display=swap" rel="stylesheet">
-        
+        <script src="js/script.js" async></script>
     </head>
     <body>
-          <div class="top-container">
-            <h1>Hi, I'm Gourav</h1>
-            <h4>a web developer</h4>
-            <div class="profile">
-              <img src="svg/GouravNoBG.svg" alt="Profile Picture" height="200px" width="200px" style="margin-bottom: 1rem;">
-              <p>I am currently learning web development to build and engineer amazing and interactive websites. I am passionate about learning and building new stuff from time to time. </p>
-            </div>
+      <div class="my-intro">
+        <h1>Hi, I'm Gourav</h1>
+        <h4>a web developer</h4>
+        <div class="profile">
+          <img src="svg/GouravNoBG.svg" alt="Profile Picture" height="200px" width="200px" style="margin-bottom: 1rem;">
+          <p style="width:40%; margin:auto;">I am currently learning web development to build and engineer amazing and interactive websites. I am passionate about learning and building new stuff from time to time. </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="my-skills">
+        <div>
+          <h2>My Skills.</h2>
+          <img src="svg/skills.svg" alt="Skills" height="200px" width="200px">
+          <div class="skill-row">              
+            <img class="proglang-img" src="svg/progLang.svg" alt="Programming Language">
+            <h3>Programming Languages</h3>
+            <p>I have a decent knowledge of programming languages such as Java and Javascript. I'm also familiar with C/C++ and Python.</p>
           </div>
-          <hr>
-          <div class="middle-container">
-            <div class="skills">
-              <h2>My Skills.</h2>
-              <img src="svg/skills.svg" alt="Skills" height="200px" width="200px">
-              <div class="skill-row">              
-                <img class="proglang-img" src="svg/progLang.svg" alt="Programming Language">
-                <h3>Programming Languages</h3>
-                <p>I have a decent knowledge of programming languages such as C++, Java and Javascript. I'm also familiar with C and Python</p>
-              </div>
-              <div class="skill-row">
-                <img class="database-img" src="svg/database.svg" alt="Database">
-                <h3>Databases</h3>
-                <p>Over the time, I have gained knowledge in databases including Oracle SQL and MySQL.</p>
-              </div>
-              <div class="skill-row">               
-                <img class="others-img" src="svg/html5.svg" alt="HTML5">
-                <img class="others-img" src="svg/css3.svg" alt="CSS3">
-                <img class="others-img" src="images/github.png" alt="GitHub">
-                <h3>Others</h3>
-                <p>My other technical skills include Git, GitHub, HTML, CSS etc.</p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact-me">
-              <h2>Get In Touch</h2>
-              <p>If you feel we are like-minded and we connect with each other, feel free to get in touch!</p>
-              <a class="btn" href="mailto:gouravguptagg02@gmail.com">CONTACT ME</a>
-            </div>
+          <div class="skill-row">
+            <img class="database-img" src="svg/database.svg" alt="Database">
+            <h3>Databases</h3>
+            <p>Over the time, I have gained knowledge in databases including Oracle SQL and MySQL.</p>
           </div>
-          
-          
-          <div class="bottom-container">
-            <a href="https://www.linkedin.com/in/gouravgupta02/">LinkedIn</a>
-            <a href="https://github.com/gouravgupta02">GitHub</a>
-            <p class="copyright">© Gourav Gupta.</p>
+          <div class="skill-row">               
+            <img class="others-img" src="svg/html5.svg" alt="HTML5">
+            <img class="others-img" src="svg/css3.svg" alt="CSS3">
+            <img class="others-img" src="images/github.png" alt="GitHub">
+            <h3>Others</h3>
+            <p>My other technical skills include Git, GitHub, HTML, CSS, ReactJs etc.</p>
           </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="my-projects">
+        <h2>My Projects</h2>
+        <div class="project-row">
+          <a target="_blank" href="https://text-utils-1.netlify.app/">
+            <img class="database-img" style="margin-top: 2rem; width: 50%;" src="images/textutils.png" alt="Database">
+          </a>
+          <h3>TextUtils</h3>
+          <p>It is a text utility webapp giving its users the functionality to manipulate and play with the text.
+              This website analyses the text and enables a user to manipulate the text. 
+            ReactJS and Bootstrap is used to build it.</p>
+        </div>
+        <div class="project-row">
+          <a target="_blank" href="https://unsplash-photo-search-1.netlify.app/">
+            <img class="database-img" style="margin-top: 1.5rem; width: 50%;" src="images/unsplashphotosearch.png" alt="Unsplash Photo Search Image">
+          </a>
+          <h3>Unsplash Photo Search</h3>
+          <p>Tis website enables a user to search and download photos of their choice online.
+            It is created using ReactJS and photos are fetched using  the Unsplash Image API.
+          </p>
+        </div>
+        <div class="project-row">
+          <a target="_blank" href="https://github.com/gouravgupta02/Leads-Tracker">
+            <img class="database-img" style="margin-top: 2.5rem; width: 50%;" src="images/leadstracker.png" alt="Leads Tracker Image">
+          </a>
+          <h3>Leads Tracker Chrome Extension</h3>
+          <p>This is a chrome extension where you can track a lead or save any input you provide. It is a tool for people tracking their potential customers.
+            It is created using HTML, CSS and JavaScript along with using localStorage of browser.</p>
+        </div>
+        <div class="project-row">
+          <a target="_blank" href="https://github.com/gouravgupta02/counter">
+            <img class="database-img" style="margin-top: 2rem; width: 30%; border-radius: 15%;" src="images/counter.png" alt="Counter Image">
+          </a>
+          <h3>Counter App</h3>
+          <p>This is a simple counter website from which a user can count, increase or decrease the value.
+            It is a simple project made for learning web development and is created using HTML5, CSS3 and JavaScript. </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="get-in-touch">
+        <h2>Get In Touch</h2>
+        <p>If you feel we are like-minded and we connect with each other, feel free to get in touch!</p>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <div class="contact">
+          <a target="_blank" href="mailto:gouravguptagg02@gmail.com">Gmail</a>
+          <a target="_blank" href="https://www.linkedin.com/in/gouravgupta02/">LinkedIn</a>
+          <a target="_blank" href="https://github.com/gouravgupta02">GitHub</a>
+        </div>
+        <p class="copyright">© Gourav Gupta.</p>
+      </div>
+      <!--Navigate to top button-->
+      <button class="scroll-to-top">^</button>
     </body>
 </html>

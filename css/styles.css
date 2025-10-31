@@ -1,7 +1,7 @@
 /************************************** Tag Selectors *****************************************/
 a {
     color: #11999E;
-    margin: 0.75rem 1.5rem;
+    /* margin: 0.75rem 1.5rem; */
     text-decoration: none;
     font-family: 'Merriweather', serif;
 }
@@ -72,13 +72,19 @@ p {
     text-align: left;
     padding: 2rem;
 }
+.sec-heading {
+    width: 50%;
+    border-radius: 8%;
+    box-shadow: 5px 5px 15px #00666f;
+    padding-bottom: 25px;
+}
 .my-intro {
     margin: 2rem auto; 
     position: relative;
     padding: 2rem 0;
     font-family: 'Merriweather', serif;
 }
-.my-skills, .my-projects, .my-experience {
+.my-skills, .my-experience, .my-projects {
     margin: 2rem auto;
     font-family: 'Merriweather', serif;
 }
@@ -89,7 +95,7 @@ p {
 }
 .contact {
     margin: auto;
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
 }
@@ -98,6 +104,7 @@ p {
     padding: 1px 5px;
     border-radius: 10%;
     color: #11999E;
+    box-shadow: 5px 5px 15px #00666f;
 }
 .contact a:hover {
     color: #59D5E0;

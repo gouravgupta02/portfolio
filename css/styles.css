@@ -61,6 +61,9 @@ p {
     float: left;
     margin-right: 2rem;
 }
+.p-img {
+    box-shadow: 5px 5px 15px #00666f;
+}
 .proglang-img {
     width: 25%;
     float: left;

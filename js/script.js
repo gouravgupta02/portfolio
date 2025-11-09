@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const backToTopBtnShow = () => {
         if (document.documentElement.scrollTop <= 700) {
-            scrollBtn.style.display = "none";
+            scrollBtn.classList.remove('active');
         } else {
-            scrollBtn.style.display = "block";
+            scrollBtn.classList.add('active');
         }
     };
     backToTopBtnShow();

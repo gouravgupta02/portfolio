@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     backToTopBtnShow();
 
     scrollBtn.addEventListener('click', () => {
-        document.documentElement.scrollTop = 0;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
     document.addEventListener('scroll', (e) => {
         backToTopBtnShow();
